@@ -1,0 +1,390 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IntentHandler"
+provides-nominal:
+- "14VoiceExtension13IntentHandlerC"
+provides-member:
+- ["14VoiceExtension13IntentHandlerC", ""]
+provides-dynamic-lookup:
+- "handle"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "INBalanceAmount"
+- "INExtension"
+- !private "INPaymentAccount"
+- "INSearchForAccountsIntent"
+- "INSearchForAccountsIntentHandling"
+- "INSearchForAccountsIntentResponse"
+- !private "INSpeakableString"
+- "IntentHandler"
+- !private "StringLiteralType"
+- "Void"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CNKeyDescriptorP", "init"]
+- !private ["s7CVarArgP", "INBalanceAmount"]
+- !private ["s7CVarArgP", "INPaymentAccount"]
+- !private ["s7CVarArgP", "INSearchForAccountsIntentResponse"]
+- !private ["s7CVarArgP", "INSpeakableString"]
+- !private ["s7CVarArgP", "accounts"]
+- ["s7CVarArgP", "confirm"]
+- ["s7CVarArgP", "confirmSearchForAccounts"]
+- ["s7CVarArgP", "handle"]
+- ["s7CVarArgP", "handleSearchForAccounts"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "resolveAccountNickname"]
+- ["s7CVarArgP", "resolveAccountNicknameForSearchForAccounts"]
+- ["s7CVarArgP", "resolveAccountType"]
+- ["s7CVarArgP", "resolveAccountTypeForSearchForAccounts"]
+- ["s7CVarArgP", "resolveOrganizationName"]
+- ["s7CVarArgP", "resolveOrganizationNameForSearchForAccounts"]
+- ["s7CVarArgP", "resolveRequestedBalanceType"]
+- ["s7CVarArgP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "INBalanceAmount"]
+- !private ["s28CustomDebugStringConvertibleP", "INPaymentAccount"]
+- !private ["s28CustomDebugStringConvertibleP", "INSearchForAccountsIntentResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "INSpeakableString"]
+- !private ["s28CustomDebugStringConvertibleP", "accounts"]
+- ["s28CustomDebugStringConvertibleP", "confirm"]
+- ["s28CustomDebugStringConvertibleP", "confirmSearchForAccounts"]
+- ["s28CustomDebugStringConvertibleP", "handle"]
+- ["s28CustomDebugStringConvertibleP", "handleSearchForAccounts"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "resolveAccountNickname"]
+- ["s28CustomDebugStringConvertibleP", "resolveAccountNicknameForSearchForAccounts"]
+- ["s28CustomDebugStringConvertibleP", "resolveAccountType"]
+- ["s28CustomDebugStringConvertibleP", "resolveAccountTypeForSearchForAccounts"]
+- ["s28CustomDebugStringConvertibleP", "resolveOrganizationName"]
+- ["s28CustomDebugStringConvertibleP", "resolveOrganizationNameForSearchForAccounts"]
+- ["s28CustomDebugStringConvertibleP", "resolveRequestedBalanceType"]
+- ["s28CustomDebugStringConvertibleP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "INBalanceAmount"]
+- !private ["s23CustomStringConvertibleP", "INPaymentAccount"]
+- !private ["s23CustomStringConvertibleP", "INSearchForAccountsIntentResponse"]
+- !private ["s23CustomStringConvertibleP", "INSpeakableString"]
+- !private ["s23CustomStringConvertibleP", "accounts"]
+- ["s23CustomStringConvertibleP", "confirm"]
+- ["s23CustomStringConvertibleP", "confirmSearchForAccounts"]
+- ["s23CustomStringConvertibleP", "handle"]
+- ["s23CustomStringConvertibleP", "handleSearchForAccounts"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "resolveAccountNickname"]
+- ["s23CustomStringConvertibleP", "resolveAccountNicknameForSearchForAccounts"]
+- ["s23CustomStringConvertibleP", "resolveAccountType"]
+- ["s23CustomStringConvertibleP", "resolveAccountTypeForSearchForAccounts"]
+- ["s23CustomStringConvertibleP", "resolveOrganizationName"]
+- ["s23CustomStringConvertibleP", "resolveOrganizationNameForSearchForAccounts"]
+- ["s23CustomStringConvertibleP", "resolveRequestedBalanceType"]
+- ["s23CustomStringConvertibleP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "INBalanceAmount"]
+- !private ["s9EquatableP", "INPaymentAccount"]
+- !private ["s9EquatableP", "INSearchForAccountsIntentResponse"]
+- !private ["s9EquatableP", "INSpeakableString"]
+- !private ["s9EquatableP", "accounts"]
+- !private ["s9EquatableP", "checking"]
+- ["s9EquatableP", "confirm"]
+- ["s9EquatableP", "confirmSearchForAccounts"]
+- ["s9EquatableP", "handle"]
+- ["s9EquatableP", "handleSearchForAccounts"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "resolveAccountNickname"]
+- ["s9EquatableP", "resolveAccountNicknameForSearchForAccounts"]
+- ["s9EquatableP", "resolveAccountType"]
+- ["s9EquatableP", "resolveAccountTypeForSearchForAccounts"]
+- ["s9EquatableP", "resolveOrganizationName"]
+- ["s9EquatableP", "resolveOrganizationNameForSearchForAccounts"]
+- ["s9EquatableP", "resolveRequestedBalanceType"]
+- ["s9EquatableP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- !private ["s9EquatableP", "saving"]
+- !private ["s9EquatableP", "success"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "INBalanceAmount"]
+- !private ["s8HashableP", "INPaymentAccount"]
+- !private ["s8HashableP", "INSearchForAccountsIntentResponse"]
+- !private ["s8HashableP", "INSpeakableString"]
+- !private ["s8HashableP", "accounts"]
+- !private ["s8HashableP", "checking"]
+- ["s8HashableP", "confirm"]
+- ["s8HashableP", "confirmSearchForAccounts"]
+- ["s8HashableP", "handle"]
+- ["s8HashableP", "handleSearchForAccounts"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "resolveAccountNickname"]
+- ["s8HashableP", "resolveAccountNicknameForSearchForAccounts"]
+- ["s8HashableP", "resolveAccountType"]
+- ["s8HashableP", "resolveAccountTypeForSearchForAccounts"]
+- ["s8HashableP", "resolveOrganizationName"]
+- ["s8HashableP", "resolveOrganizationNameForSearchForAccounts"]
+- ["s8HashableP", "resolveRequestedBalanceType"]
+- ["s8HashableP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- !private ["s8HashableP", "saving"]
+- !private ["s8HashableP", "success"]
+- ["s8HashableP", ""]
+- !private ["SC13INAccountTypeO", "checking"]
+- !private ["SC13INAccountTypeO", "saving"]
+- !private ["So15INBalanceAmountC", "init"]
+- !private ["So11INExtensionC", "INBalanceAmount"]
+- !private ["So11INExtensionC", "INPaymentAccount"]
+- ["So11INExtensionC", "INSearchForAccountsIntent"]
+- ["So11INExtensionC", "INSearchForAccountsIntentResponse"]
+- !private ["So11INExtensionC", "INSpeakableString"]
+- ["So11INExtensionC", "Void"]
+- ["So11INExtensionC", "confirm"]
+- ["So11INExtensionC", "confirmSearchForAccounts"]
+- ["So11INExtensionC", "handle"]
+- ["So11INExtensionC", "handleSearchForAccounts"]
+- ["So11INExtensionC", "init"]
+- ["So11INExtensionC", "resolveAccountNickname"]
+- ["So11INExtensionC", "resolveAccountNicknameForSearchForAccounts"]
+- ["So11INExtensionC", "resolveAccountType"]
+- ["So11INExtensionC", "resolveAccountTypeForSearchForAccounts"]
+- ["So11INExtensionC", "resolveOrganizationName"]
+- ["So11INExtensionC", "resolveOrganizationNameForSearchForAccounts"]
+- ["So11INExtensionC", "resolveRequestedBalanceType"]
+- ["So11INExtensionC", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["So11INExtensionC", ""]
+- !private ["So24INIntentHandlerProvidingP", "INBalanceAmount"]
+- !private ["So24INIntentHandlerProvidingP", "INPaymentAccount"]
+- !private ["So24INIntentHandlerProvidingP", "INSearchForAccountsIntentResponse"]
+- !private ["So24INIntentHandlerProvidingP", "INSpeakableString"]
+- ["So24INIntentHandlerProvidingP", "confirm"]
+- ["So24INIntentHandlerProvidingP", "confirmSearchForAccounts"]
+- ["So24INIntentHandlerProvidingP", "handle"]
+- ["So24INIntentHandlerProvidingP", "handleSearchForAccounts"]
+- !private ["So24INIntentHandlerProvidingP", "init"]
+- ["So24INIntentHandlerProvidingP", "resolveAccountNickname"]
+- ["So24INIntentHandlerProvidingP", "resolveAccountNicknameForSearchForAccounts"]
+- ["So24INIntentHandlerProvidingP", "resolveAccountType"]
+- ["So24INIntentHandlerProvidingP", "resolveAccountTypeForSearchForAccounts"]
+- ["So24INIntentHandlerProvidingP", "resolveOrganizationName"]
+- ["So24INIntentHandlerProvidingP", "resolveOrganizationNameForSearchForAccounts"]
+- ["So24INIntentHandlerProvidingP", "resolveRequestedBalanceType"]
+- ["So24INIntentHandlerProvidingP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["So24INIntentHandlerProvidingP", ""]
+- !private ["So16INIntentResponseC", "accounts"]
+- !private ["So16INIntentResponseC", "init"]
+- !private ["So16INPaymentAccountC", "init"]
+- !private ["So33INSearchForAccountsIntentHandlingP", "INBalanceAmount"]
+- !private ["So33INSearchForAccountsIntentHandlingP", "INPaymentAccount"]
+- !private ["So33INSearchForAccountsIntentHandlingP", "INSearchForAccountsIntentResponse"]
+- !private ["So33INSearchForAccountsIntentHandlingP", "INSpeakableString"]
+- ["So33INSearchForAccountsIntentHandlingP", "confirm"]
+- ["So33INSearchForAccountsIntentHandlingP", "confirmSearchForAccounts"]
+- ["So33INSearchForAccountsIntentHandlingP", "handle"]
+- ["So33INSearchForAccountsIntentHandlingP", "handleSearchForAccounts"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveAccountNickname"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveAccountNicknameForSearchForAccounts"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveAccountType"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveAccountTypeForSearchForAccounts"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveOrganizationName"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveOrganizationNameForSearchForAccounts"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveRequestedBalanceType"]
+- ["So33INSearchForAccountsIntentHandlingP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["So33INSearchForAccountsIntentHandlingP", ""]
+- !private ["So33INSearchForAccountsIntentResponseC", "accounts"]
+- !private ["So33INSearchForAccountsIntentResponseC", "init"]
+- !private ["SC37INSearchForAccountsIntentResponseCodeO", "success"]
+- !private ["So11INSpeakableP", "init"]
+- !private ["So17INSpeakableStringC", "init"]
+- !private ["14VoiceExtension13IntentHandlerC", "INBalanceAmount"]
+- !private ["14VoiceExtension13IntentHandlerC", "INPaymentAccount"]
+- ["14VoiceExtension13IntentHandlerC", "INSearchForAccountsIntent"]
+- ["14VoiceExtension13IntentHandlerC", "INSearchForAccountsIntentResponse"]
+- !private ["14VoiceExtension13IntentHandlerC", "INSpeakableString"]
+- ["14VoiceExtension13IntentHandlerC", "Void"]
+- ["14VoiceExtension13IntentHandlerC", "confirm"]
+- ["14VoiceExtension13IntentHandlerC", "confirmSearchForAccounts"]
+- ["14VoiceExtension13IntentHandlerC", "deinit"]
+- ["14VoiceExtension13IntentHandlerC", "handle"]
+- ["14VoiceExtension13IntentHandlerC", "handleSearchForAccounts"]
+- ["14VoiceExtension13IntentHandlerC", "init"]
+- ["14VoiceExtension13IntentHandlerC", "resolveAccountNickname"]
+- ["14VoiceExtension13IntentHandlerC", "resolveAccountNicknameForSearchForAccounts"]
+- ["14VoiceExtension13IntentHandlerC", "resolveAccountType"]
+- ["14VoiceExtension13IntentHandlerC", "resolveAccountTypeForSearchForAccounts"]
+- ["14VoiceExtension13IntentHandlerC", "resolveOrganizationName"]
+- ["14VoiceExtension13IntentHandlerC", "resolveOrganizationNameForSearchForAccounts"]
+- ["14VoiceExtension13IntentHandlerC", "resolveRequestedBalanceType"]
+- ["14VoiceExtension13IntentHandlerC", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "accounts"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "accounts"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "INBalanceAmount"]
+- !private ["So8NSObjectC", "INPaymentAccount"]
+- ["So8NSObjectC", "INSearchForAccountsIntent"]
+- ["So8NSObjectC", "INSearchForAccountsIntentResponse"]
+- !private ["So8NSObjectC", "INSpeakableString"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "accounts"]
+- ["So8NSObjectC", "confirm"]
+- ["So8NSObjectC", "confirmSearchForAccounts"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "handleSearchForAccounts"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "resolveAccountNickname"]
+- ["So8NSObjectC", "resolveAccountNicknameForSearchForAccounts"]
+- ["So8NSObjectC", "resolveAccountType"]
+- ["So8NSObjectC", "resolveAccountTypeForSearchForAccounts"]
+- ["So8NSObjectC", "resolveOrganizationName"]
+- ["So8NSObjectC", "resolveOrganizationNameForSearchForAccounts"]
+- ["So8NSObjectC", "resolveRequestedBalanceType"]
+- ["So8NSObjectC", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- !private ["So16NSObjectProtocolP", "INBalanceAmount"]
+- !private ["So16NSObjectProtocolP", "INPaymentAccount"]
+- !private ["So16NSObjectProtocolP", "INSearchForAccountsIntentResponse"]
+- !private ["So16NSObjectProtocolP", "INSpeakableString"]
+- !private ["So16NSObjectProtocolP", "accounts"]
+- ["So16NSObjectProtocolP", "confirm"]
+- ["So16NSObjectProtocolP", "confirmSearchForAccounts"]
+- ["So16NSObjectProtocolP", "handle"]
+- ["So16NSObjectProtocolP", "handleSearchForAccounts"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "resolveAccountNickname"]
+- ["So16NSObjectProtocolP", "resolveAccountNicknameForSearchForAccounts"]
+- ["So16NSObjectProtocolP", "resolveAccountType"]
+- ["So16NSObjectProtocolP", "resolveAccountTypeForSearchForAccounts"]
+- ["So16NSObjectProtocolP", "resolveOrganizationName"]
+- ["So16NSObjectProtocolP", "resolveOrganizationNameForSearchForAccounts"]
+- ["So16NSObjectProtocolP", "resolveRequestedBalanceType"]
+- ["So16NSObjectProtocolP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "accounts"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "checking"]
+- !private ["s16RawRepresentableP", "saving"]
+- !private ["s16RawRepresentableP", "success"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "INBalanceAmount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "INPaymentAccount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "INSearchForAccountsIntentResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "INSpeakableString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accounts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "confirm"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "confirmSearchForAccounts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handleSearchForAccounts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveAccountNickname"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveAccountNicknameForSearchForAccounts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveAccountType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveAccountTypeForSearchForAccounts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveOrganizationName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveOrganizationNameForSearchForAccounts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveRequestedBalanceType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resolveRequestedBalanceTypeForSearchForAccounts"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So15CNKeyDescriptorP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "SC13INAccountTypeO"
+- !private "So15INBalanceAmountC"
+- "So11INExtensionC"
+- "So24INIntentHandlerProvidingP"
+- !private "So16INIntentResponseC"
+- !private "So16INPaymentAccountC"
+- "So33INSearchForAccountsIntentHandlingP"
+- !private "So33INSearchForAccountsIntentResponseC"
+- !private "SC37INSearchForAccountsIntentResponseCodeO"
+- !private "So11INSpeakableP"
+- !private "So17INSpeakableStringC"
+- "14VoiceExtension13IntentHandlerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Intents.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Contacts.framework/Headers/Contacts.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Intents.framework/Headers/Intents.apinotes"
+interface-hash: "72986c0a3d6ac56fc3eb8b76d04ae84a"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "7888b1c53e0af2909c77186dba7d36d1"
+build_time: [1507164731, 825970000]
+inputs:
+  "/Users/matthewnale/src/SearchForAccountsSample/SearchForAccountSample/VoiceExtension/IntentHandler.swift": [1507162951, 0]

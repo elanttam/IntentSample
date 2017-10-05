@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "b43afe67a126233ee18a6766dd618193"
+build_time: [1507164736, 365098000]
+inputs:
+  "/Users/matthewnale/src/SearchForAccountsSample/SearchForAccountSample/SearchForAccountSample/ViewController.swift": [1507161046, 0]
+  "/Users/matthewnale/src/SearchForAccountsSample/SearchForAccountSample/SearchForAccountSample/AppDelegate.swift": [1507162392, 0]
